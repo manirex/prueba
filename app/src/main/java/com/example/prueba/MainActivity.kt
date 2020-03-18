@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         fab.setOnClickListener { view ->
             Snackbar.make(view, "esto indica que si funciono", Snackbar.LENGTH_LONG)
-                    .setAction("funciono", null).show()
+                    .setAction("funciono yes", null).show()
         }
     }
     //esto prueba que si funciona la actualización de android
