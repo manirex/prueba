@@ -16,10 +16,12 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+            Snackbar.make(view, "esto indica que si funciono", Snackbar.LENGTH_LONG)
+                    .setAction("funciono", null).show()
         }
     }
+    //esto prueba que si funciona la actualización de android
+
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
